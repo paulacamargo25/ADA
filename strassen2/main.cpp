@@ -204,7 +204,7 @@ void strassen(int** &A,int** &B, int** &C, int n) {
 int tam;
 
 int main () {
-    tam=4;
+    tam=3;
     int** A=crearMatriz(tam,tam);
     int** B=crearMatriz(tam,tam);
     int** C=crearMatriz(tam,tam);

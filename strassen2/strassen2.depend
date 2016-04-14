@@ -1,0 +1,7 @@
+# depslib dependency file v1.0
+1460596000 source:/home/paulacv/San Pablo/analisis y diseño de algoritmos/ADA/strassen2/main.cpp
+	<string>
+	<iostream>
+	<algorithm>
+	<cmath>
+
