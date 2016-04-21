@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1461201920 source:/home/paulacv/San Pablo/analisis y diseño de algoritmos/ADA/heapsort/main.cpp
+	<iostream>
+	<math.h>
+
