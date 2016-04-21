@@ -1,0 +1,8 @@
+# depslib dependency file v1.0
+1461208704 source:/home/paulacv/San Pablo/analisis y diseño de algoritmos/ADA/priority_queue/main.cpp
+	<iostream>
+	<math.h>
+	<vector>
+
+1461204181 source:/home/paulacv/San Pablo/analisis y diseño de algoritmos/ADA/priority_queue/src/maxheap.cpp
+
