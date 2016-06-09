@@ -1,0 +1,46 @@
+#include <iostream>
+#include <vector>
+
+
+using namespace std;
+
+int main()
+{
+    cout<<"------ Grafitos ---------"<<endl;
+    int nodos;
+    cout<<"Ingrese el numero de nodos: ";
+    cin>>nodos;
+
+
+
+    int Grafito[nodos][nodos];
+    cout<<"  ";
+    for (int i=0;i<nodos;i++)
+    {
+        cout<<i+1<<" ";
+    }
+    cout<<endl;
+    for(int n1=0;n1<nodos;n1++)
+        {
+        cout<<n1+1<<" ";
+        for(int n2=0;n2<nodos;n2++)
+            {
+               cin>>Grafito[n1][n2];
+            }
+        }
+    cout<<endl;
+
+    for (int n1=0;n1<nodos;n1++)
+    {
+        cout<<"El nodo "<<n1+1<<" llega a:\n";
+        for (int n2=0;n2<nodos;n2++)
+        {
+            int peso=Grafito[n1][n2];
+            if (peso>0)
+                cout<< "El nodo "<<n2+1<<" con un peso de "<<peso<<endl;
+        }
+        cout<<endl;
+
+
+    }
+}
